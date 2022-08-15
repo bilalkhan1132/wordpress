@@ -1,0 +1,12 @@
+2022-08-04T08:44:44+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "custom_customize_about_name" not found or invalid function name in E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-includes\customize\class-wp-customize-partial.php:221
+Stack trace:
+#0 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render()
+#1 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(307): WP_Customize_Selective_Refresh->handle_render_partials_request()
+#2 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-includes\plugin.php(476): WP_Hook->do_action()
+#4 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-includes\template-loader.php(13): do_action()
+#5 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-blog-header.php(19): require_once('...')
+#6 E:\HIT_Internship_Project\apps\wordpress\htdocs\index.php(17): require('...')
+#7 {main}
+  thrown in E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-includes\customize\class-wp-customize-partial.php on line 221
+

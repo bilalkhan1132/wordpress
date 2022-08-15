@@ -1,0 +1,17 @@
+2022-07-31T11:27:04+00:00 CRITICAL Uncaught Error: Class "pro_option_custom_control" not found in E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-content\plugins\spediex-for-theme\inc\free\features\featured-slider.php:181
+Stack trace:
+#0 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(307): featured_slider_setting()
+#1 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-includes\plugin.php(476): WP_Hook->do_action()
+#3 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-includes\class-wp-customize-manager.php(933): do_action()
+#4 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded()
+#5 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-includes\plugin.php(476): WP_Hook->do_action()
+#7 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-settings.php(620): do_action()
+#8 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-config.php(111): require_once('...')
+#9 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-load.php(50): require_once('...')
+#10 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-admin\admin.php(34): require_once('...')
+#11 E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-admin\customize.php(13): require_once('...')
+#12 {main}
+  thrown in E:\HIT_Internship_Project\apps\wordpress\htdocs\wp-content\plugins\spediex-for-theme\inc\free\features\featured-slider.php on line 181
+
